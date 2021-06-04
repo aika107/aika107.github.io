@@ -1,0 +1,8 @@
+#web_bg{
+    /* 背景图像的地址（url括号里）  */
+  background: url(https://cdn.jsdelivr.net/gh/aika107/ccimages/bcc0895e8d4a259e79c4017eb058a043.jpg);
+  /* 背景图像不重复 */
+  background-repeat: no-repeat;
+  /* 背景图像大小 */
+  background-size: cover;
+}
