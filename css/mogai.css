@@ -6,3 +6,27 @@
   /* 背景图像大小 */
   background-size: cover;
 }
+
+/*首页博客昵称颜色 首页中间打字效果上方 */
+#page-header #site_title {
+    color: #80bdab;
+}
+/*首页博客昵称颜色 顶部导航栏 */
+#nav a {
+    color: #f9f2f4;
+}
+/*首页字体 */
+@font-face {
+    font-family:'zhaopai';
+    src:url('https://cdn.jsdelivr.net/gh/aika107/mystaticfile/ttf/zhaopai.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+h1#site-title {
+    font-family:zhaopai!important
+}
+span#subtitle {
+    font-family:zhaopai!important
+}
+a#site-name {
+    font-family:zhaopai!important
+}
